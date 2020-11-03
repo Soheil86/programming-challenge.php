@@ -72,7 +72,7 @@ require 'db_conn.php';
             $('.remove-to-do').click(function(){
                 const id = $(this).attr('id');
                 
-                $.post("app/remove.php", 
+                $.post("app/delete.php", 
                       {
                           id: id
                       },
