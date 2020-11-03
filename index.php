@@ -1,5 +1,5 @@
 <?php 
-require 'db_conn.php';
+require 'config/Database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
